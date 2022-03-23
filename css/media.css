@@ -1,0 +1,221 @@
+@media (max-width: 1200px) {
+    header, main, footer {
+        max-width: 94%;
+    }
+}
+@media (max-width: 1024px) {
+    .row1 h1 {
+        font-size: 60px;
+    }
+    .row1 {
+        background-position: 190% 110%;
+    }
+    .row1, .row3, .row4, .hr, footer {
+        margin-top: 100px;
+    }
+}
+
+@media (max-width: 768px){
+    .row1 h1 {
+        font-size: 40px;
+        max-width: 345px;
+    }
+    .row1 {
+        background-position: 140% 100%;
+        background-size: 85%;
+    }
+    .row1, .row3, .row4, .hr, footer {
+        margin-top: 70px;
+    }
+    .text2 h2 {
+        font-size: 30px;
+        margin-top: 30px;
+    }
+    .row2 {
+        flex-flow: column-reverse;
+        margin-top: 50px;
+    }
+    .row2 img {
+        width: 361px;
+        height: auto;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+    .row4 h3 {
+        padding-top: 50px;
+    }
+    .slider {
+        margin-top: 50px;
+    }
+    .slider:first-child {
+        margin-left: 60px;
+    }
+}
+
+@media (max-width: 425px) {
+    header {
+        display: block;
+        margin-top: 30px;
+    }
+    .logo {
+        text-align: center;
+    }
+    ul {
+        margin: 20px auto 0 auto;
+    }
+    .row1 {
+        background-position: 140% 80%;
+        margin-top: 40px;
+    }
+    .row1 p {
+        margin-top: 40px;
+    }
+    .row2 {
+        margin-top: 0;
+    }
+    .text2 h2 {
+        font-size: 20px;
+        margin-top: 30px;
+        max-width: 365px;
+    }
+    .text2 p {
+        max-width: 365px;
+        margin-top: 30px;
+    }
+    .text3 p {
+        margin-top: 20px;
+    }
+    .block1, .block2, .block3, .block4 {
+        margin-top: 50px;
+        background-size: 100%;
+        height: 290px;
+    }
+    .block_info {
+        margin: 10px 5px 0 0;
+        height: 230px;
+    }
+    .block_text p {
+        font-size: 14px;
+    }
+    .row4 h3 {
+        font-size: 30px;
+        text-align: center;
+        margin-left: 0;
+        padding-top: 20px;
+    }
+    .slider:first-child {
+        margin-left: 10px;
+    }
+    .photo {
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    .slider_text {
+        margin-top: 30px;
+        margin-left: 15px;
+    }
+    .slider {
+        width: 380px;
+        margin-top: 20px;
+    }
+    .slider_footer {
+        margin-top: 50px;
+        padding-bottom: 20px;
+    }
+    footer {
+        flex-direction: column;
+        margin-top: 50px;
+    }
+    .footer_left {
+        max-width: none;
+    }
+    .footer_lt {
+        justify-content: center;
+    }
+    .adress {
+        margin-top: 30px;
+    }
+    .registr {
+        padding-bottom: 50px;
+    }
+    .circles_footer {
+        margin-top: 15px;
+    }
+    .footer_right h4 {
+        text-align: center;
+    }
+    .circles_footer {
+        justify-content: center;
+        padding-bottom: 20px;
+    }
+}
+@media (max-width: 375px) {
+    .row1 h1 {
+        font-size: 32px;
+    }
+    .text2 h2 {
+        max-width: 300px;
+    }
+    .text2 p {
+        max-width: 300px;
+    }
+    .row2 img {
+        width: 300px;
+    }
+    .block_info {
+        height: 210px;
+    }
+    .block_text p {
+        font-size: 14px;
+        max-width: 190px;
+        margin-top: 10px;
+    }
+    .block1, .block2, .block3, .block4 {
+        height: 250px;
+    }
+
+    .slider_text p {
+        font-size: 16px;
+        line-height: 150%;
+    }
+    .slider {
+        flex-direction: column;
+        width: 333px;
+    }
+    .slider_text {
+        margin-top: 10px;
+    }
+    .row4 {
+        margin-top: 50px;
+    }
+}
+@media (max-width: 350px) {
+    .text2 h2 {
+        max-width: 270px;
+    }
+    .text2 p {
+        max-width: 270px;
+    }
+    .block_text p {
+        font-size: 14px;
+        max-width: 160px;
+        margin-top: 5px;
+        line-height: 130%;
+    }
+    .block_text h3 {
+        font-size: 20px;
+    }
+    .block1, .block2, .block3, .block4 {
+        height: 203px;
+    }
+    .block_info {
+        height: 180px;
+    }
+    .slider {
+        width: 280px;
+    }
+    .slider_text p {
+        font-style: 15px;
+    }
+}
